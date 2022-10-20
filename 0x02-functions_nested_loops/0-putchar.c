@@ -1,13 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 /**
- *main - This is to print _printchar
+ * main - This is to print _printchar
  *
- * result - 0
+ * Return: 0
  */
-main(void)
-{
 
-printf("_printchar\n");
+int main(void)
+{
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 
 }
